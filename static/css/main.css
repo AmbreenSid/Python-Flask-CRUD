@@ -1,0 +1,110 @@
+header h1{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 3rem;
+  font-size: 2em;
+  background: #0a2250;
+  color: #E4F8FF;
+  text-shadow: -2px 2px 5px #000;
+  text-align: center;
+}
+
+.btn{
+    border-radius: 0px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: #0A2250;
+    color: #E4F8FF;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #0a4550;
+    color: #E4F8FF;
+}
+.btn:active{
+    background-color: rgb(153, 115, 69);
+}
+
+.card{
+    padding: 2%;
+    margin-top: 10px;
+    background-color:#b5bcca;
+    font-weight: bolder;
+}
+
+.view-card{
+    margin-right: 10px;
+}
+
+.show-card, .edit-card, .add-card{
+    max-width: 40%;
+    max-height: 40%;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+h2{
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder;
+    color: #0A2250;
+}
+
+footer {
+    margin-top: 5px;
+    background: #0a2250; 
+    color: white; 
+    padding: 50px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+img{
+    border: 2px solid;
+    border-radius: 0%;
+}
+
+nav{
+    margin-top: 5px;
+    background-color: #8490a7;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+  }
+  
+  nav ul li a:hover {
+    transition: all 1s;
+    background: #9db4b9;
+  }
+  
+  nav ul li a.current {
+    background: #E4F8FF;
+  }
+  
+  nav ul li a.current:hover {
+    background: #fffdee;
+  }
+
+  .album{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  #E4F8FF;
+    border: 5px solid #0a2250;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: 10%;
+    /* background-image: url('../img/background.jpg') no-repeat center/cover; */
+  }
